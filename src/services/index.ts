@@ -15,7 +15,7 @@ export const sendMessageContact = async (data: ContactProps) => {
         if (res.ok) {
             return { response: json }
         } else {
-            throw new Error(json.status)
+            return { error: json.error }
         }
     } catch (error) {
         return { error: 'Aconteceu algum erro!' };
