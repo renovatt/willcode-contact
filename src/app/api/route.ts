@@ -21,7 +21,7 @@ export async function POST(request: Request) {
     await transporter.sendMail({
       ...mailOptions,
       subject: `WillCode - Contato`,
-      text: message,
+      text: 'preview',
       html: `
       <!DOCTYPE html>
         <html lang="pt-br">
