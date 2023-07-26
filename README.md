@@ -15,6 +15,8 @@
 
 ## Layout web
 ![Web 1](./public/web-1.png)
+#
+![Web 2](./public/email.png)
 
 <br>
 
